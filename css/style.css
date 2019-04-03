@@ -2,6 +2,8 @@
 
 html {
   box-sizing: border-box;
+
+  margin: 0, auto;
 }
 
 *,
@@ -9,12 +11,14 @@ html {
 *::after {
   box-sizing: inherit;
   padding: 0;
-  margin: 0;
+  margin: 0, auto;
 }
 
 .container-fluid {
   min-width: 320px;
-  max-width: 1440px;
+  /* max-width: 1440px; */
+
+  margin: 0, auto;
 }
 
 /* =======================header============================== */
@@ -28,6 +32,8 @@ html {
   min-width: 320px;
   text-align: center;
   padding-top: 32px;
+
+  margin: 0, auto;
 }
 
 .navigation {
@@ -45,7 +51,7 @@ html {
   color: rgb(255, 255, 255);
   font-weight: bold;
   text-decoration: none;
-
+  padding: 4px;
   border: solid 2px rgba(26, 25, 21, 0);
   border-radius: 20px;
   cursor: pointer;
@@ -122,6 +128,8 @@ html {
 .container-fluid--main {
   background-color: #fff;
   text-align: center;
+
+  margin: 0, auto;
 }
 
 .main-title {
@@ -177,6 +185,7 @@ html {
   font-family: "Roboto", serif;
   color: rgb(102, 102, 102);
   text-align: center;
+  min-width: 195px;
 }
 
 .card-change:hover .image-change {
@@ -212,10 +221,12 @@ html {
     min-height: 700px;
     background-image: url(../images/header-bg-tablet.jpg);
     padding-top: 45px;
+
+    margin: 0, auto;
   }
 
   body {
-    margin: 0;
+    margin: 0, auto;
   }
 
   .width-748 {
@@ -269,6 +280,8 @@ html {
   .container-fluid--main {
     padding-left: 128px;
     padding-right: 128px;
+
+    margin: 0, auto;
   }
 
   .main-title {
@@ -310,6 +323,8 @@ html {
   .container-fluid--header {
     height: 700px;
     background-image: url(../images/header-bg-desktop.jpg);
+
+    margin: 0, auto;
   }
 
   .width-748 {
@@ -337,6 +352,8 @@ html {
   .container-fluid--main {
     padding-left: 0;
     padding-right: 0;
+
+    margin: 0, auto;
   }
 
   .card-width-748 {
