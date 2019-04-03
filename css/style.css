@@ -2,8 +2,6 @@
 
 html {
   box-sizing: border-box;
-
-  margin: 0, auto;
 }
 
 *,
@@ -11,14 +9,12 @@ html {
 *::after {
   box-sizing: inherit;
   padding: 0;
-  margin: 0, auto;
+  margin: 0;
 }
 
 .container-fluid {
   min-width: 320px;
   /* max-width: 1440px; */
-
-  margin: 0, auto;
 }
 
 /* =======================header============================== */
@@ -32,8 +28,6 @@ html {
   min-width: 320px;
   text-align: center;
   padding-top: 32px;
-
-  margin: 0, auto;
 }
 
 .navigation {
@@ -128,8 +122,6 @@ html {
 .container-fluid--main {
   background-color: #fff;
   text-align: center;
-
-  margin: 0, auto;
 }
 
 .main-title {
@@ -221,8 +213,6 @@ html {
     min-height: 700px;
     background-image: url(../images/header-bg-tablet.jpg);
     padding-top: 45px;
-
-    margin: 0, auto;
   }
 
   body {
@@ -280,8 +270,6 @@ html {
   .container-fluid--main {
     padding-left: 128px;
     padding-right: 128px;
-
-    margin: 0, auto;
   }
 
   .main-title {
@@ -323,8 +311,6 @@ html {
   .container-fluid--header {
     height: 700px;
     background-image: url(../images/header-bg-desktop.jpg);
-
-    margin: 0, auto;
   }
 
   .width-748 {
@@ -352,8 +338,6 @@ html {
   .container-fluid--main {
     padding-left: 0;
     padding-right: 0;
-
-    margin: 0, auto;
   }
 
   .card-width-748 {
